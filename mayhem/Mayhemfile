@@ -1,0 +1,6 @@
+project: english-to-ipa
+target: ipa_convert_fuzz
+
+cmds:
+    - cmd: /english-to-ipa/fuzz/ipa_convert_fuzz.py
+      libfuzzer: true
